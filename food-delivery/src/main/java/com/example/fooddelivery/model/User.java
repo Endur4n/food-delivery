@@ -1,6 +1,7 @@
 package com.example.fooddelivery.model;
 
 import com.example.fooddelivery.enumeration.Gender;
+import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,6 +13,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Getter
 @Setter
+@Entity
 public class User {
     private String username;
     private String password;
